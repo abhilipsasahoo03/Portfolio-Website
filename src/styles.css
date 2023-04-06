@@ -2,7 +2,7 @@
 @tailwind base;
 @tailwind utilities;
 
-body.light-mode #about {
+body.light-mode #aboutline {
   background-color: #fff;
   color: #333;
   transition: background-color 0.3s ease;
