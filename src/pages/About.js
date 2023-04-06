@@ -10,7 +10,7 @@ export default function About(props) {
             <TypeWriter />
             <br />
             <br className="hidden lg:inline-block" />
-            <h2 className="title-font sm:text-3xl text-blue-600-2xl">
+            <h2 className="title-font text-green-600 text-2xl sm:text-green-600 text-3xl">
               Developer. Programmer. Open source enthusiast.
             </h2>
             <br />
