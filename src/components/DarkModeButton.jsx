@@ -12,5 +12,6 @@ export default function DarkModeToggleButton() {
         <input type="checkbox" onClick={() => setDarkToggle(!darkToggle)} />
         <span class="slideBtnTg round"></span>
       </label>
+    </div>
   );
 }
