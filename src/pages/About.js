@@ -1,5 +1,5 @@
 import React from "react";
-import TypeWriter from "./src/components/TypeWriter.jsx";
+import TypeWriter from "../components/TypeWriter.jsx";
 
 export default function About(props) {
   return (
