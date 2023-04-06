@@ -10,7 +10,7 @@ export default function About(props) {
             <TypeWriter />
             <br />
             <br className="hidden lg:inline-block" />
-            <h2 className="title-font text-linear-gradient(to right bottom, rgb(249, 168, 212), rgb(216, 180, 254), rgb(129, 140, 248))-600 text-2xl sm:text-3xl">
+            <h2 className="title-font bg-gradient-to-br from-pink-300 via-purple-300 to-indigo-400 text-2xl font-extrabold sm:text-3xl">
               Developer. Programmer. Open source enthusiast.
             </h2>
             <br />
