@@ -11,7 +11,7 @@ export default function About(props) {
             <br />
             <br className="hidden lg:inline-block" />
             <h2 className="title-font sm:text-3xl text-2xl">
-              Developer. Open source enthusiast.
+              Developer. Programmer. Open source enthusiast.
             </h2>
             <br />
             <p className="mb-8 leading-relaxed text-slate-800 dark:text-white">
