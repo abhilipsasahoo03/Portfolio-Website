@@ -22,15 +22,7 @@
     -->
 	<title>React App</title>
 	<script src="https://cdn.tailwindcss.com" id="external-js"></script>
-	<script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js" id="external-js"></script>
-        <script>
-          // On page load or when changing themes, best to add inline in `head` to avoid FOUC
-          if (localStorage.getItem('color-theme') === 'dark' || (!('color-theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
-             document.documentElement.classList.add('dark');
-          } else {
-             document.documentElement.classList.remove('dark')
-          }
-        </script>
+	
 </head>
 
 <body>
