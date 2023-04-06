@@ -11,3 +11,7 @@ body.light-mode {
 body.dark-mode {
   background-color: #10171d;
   color: #dfdfdf;
+
+#intro {
+  color: pink;
+  -webkit-text-stroke: 2px black;
