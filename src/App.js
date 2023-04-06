@@ -9,7 +9,7 @@ import Switcher from "./components/Switcher";
 
 export default function App() {
   return (
-    <main>
+    <main className="bg-white dark:bg-slate-800">
       <Navbar />
       <center><Switcher /></center>
       <About />
