@@ -1,8 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 
 export default function DarkModeToggleButton() {
   var themeToggleDarkIcon = document.getElementById('theme-toggle-dark-icon');
-  var tconst [darkToggle, setDarkToggle] = React.useState(false);
+  var tconst [darkToggle, setDarkToggle] = useState(false);
 
   return (
     <div
@@ -14,4 +14,5 @@ export default function DarkModeToggleButton() {
         <input type="checkbox" onClick={() => setDarkToggle(!darkToggle)} />
         <span class="slideBtnTg round"></span>
       </label>
+);
 }
