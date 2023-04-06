@@ -2,7 +2,7 @@ import React from "react";
 
 export default function DarkModeToggleButton() {
   var themeToggleDarkIcon = document.getElementById('theme-toggle-dark-icon');
-  var tconst [darkToggle, setDarkToggle] = React.useState(false)
+  var tconst [darkToggle, setDarkToggle] = React.useState(false);
 
   return (
     <div
