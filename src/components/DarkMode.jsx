@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-export default function useDarkSide() { 
+export default function DarkMode() { 
     const [theme, setTheme] = useState(localStorage.theme); 
     const colorTheme = theme === "dark" ? '<img src="./sun.png" alt="Sun" width="20" height="20" />' : '<img src="./moon.png" alt="Moon" width="20" height="20" />'; 
     useEffect(() => { 
