@@ -5,11 +5,13 @@ import Navbar from "./pages/Navbar";
 import Projects from "./pages/Projects";
 import Skills from "./pages/Skills";
 import OpenSource from "./pages/OpenSource";
+import DarkModeToggleButton from "./components/DarkModeButton.jsx"; 
 
 export default function App() {
   return (
     <main>
       <Navbar />
+      <DarkModeToggleButton />
       <About />
     </main>
   );
