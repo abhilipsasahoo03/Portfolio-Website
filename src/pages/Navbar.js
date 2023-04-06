@@ -1,5 +1,6 @@
 import { ArrowRightIcon } from "@heroicons/react/solid";
 import React from "react";
+import DarkModeToggleButton from "../components/DarkModeButton.jsx";
 
 export default function Navbar() {
   return (
@@ -20,11 +21,8 @@ export default function Navbar() {
           <a href="#opensource" className="mr-5 hover:text-gray">
             Open Source
           </a>
+          <a> <DarkModeToggleButton /> </a>
         </nav>
-        <script>
-          function addDarkmodeWidget() {new Darkmode().showWidget()}
-          window.addEventListener('load', addDarkmodeWidget);
-        </script>
         <a
           href="#contact"
           className="inline-flex items-center bg-gray-400 dark:text-white border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0"
