@@ -21,7 +21,7 @@ export default function Navbar() {
           <a href="#opensource" className="mr-5 hover:text-gray">
             Open Source
           </a>
-          <a> <DarkModeToggleButton /> </a>
+          <DarkModeToggleButton />
         </nav>
         <a
           href="#contact"
