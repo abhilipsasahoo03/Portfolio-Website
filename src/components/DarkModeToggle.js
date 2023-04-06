@@ -1,7 +1,7 @@
 import React from "react";
 import useDarkMode from 'use-dark-mode';
 
-import Toggle from '../components/Toggle';
+import Toggle from 'react-toggle';
 
 const DarkModeToggle = () => {
   const darkMode = useDarkMode(false);
@@ -11,9 +11,16 @@ const DarkModeToggle = () => {
       <button type="button" onClick={darkMode.disable}>
         ☀
       </button>
-      <Toggle checked={darkMode.value} onChange={darkMode.toggle} />
+      <Toggle 
+        checked={darkMode.value}
+        icons={{
+          checked: "🌓",
+          unchecked: "🌓",
+        }}
+        onChange={darkMode.toggle}
+      />
       <button type="button" onClick={darkMode.enable}>
-        ☾
+        🌕
       </button>
     </div>
   );
