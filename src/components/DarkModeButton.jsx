@@ -1,18 +1,13 @@
-import React, { useState } from "react";
-import "./css/DarkModeButton.css"
+import { useState, useEffect } from "react";
 
-export default function DarkModeToggleButton() {
-  const [darkToggle, setDarkToggle] = useState(false);
-  return (
-    <div
-      class={${
-        darkToggle && 'dark'
-      }`}
-    >
-      <label class="toggleDarkBtn">
-        <input type="checkbox" onClick={() => setDarkToggle(!darkToggle)} />
-        <span class="slideBtnTg round"></span>
-      </label>
-    </div>
-  );
+export default function useDarkSide() { 
+    const [theme, setTheme] = useState(localStorage.theme); 
+    const colorTheme = theme === "dark" ? '<img src="./sun.png" alt="Sun" width="20" height="20" />' : '<img src="./moon.png" alt="Moon" width="20" height="20" />'; 
+    useEffect(() => { 
+        const root = window.document.documentElement; 
+        root.classList.remove(colorTheme); 
+        root.classList.add(theme); 
+        localStorage.setItem('theme', theme); 
+    }, [theme, colorTheme]); 
+    return [colorTheme, setTheme] 
 }
