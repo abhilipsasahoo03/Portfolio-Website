@@ -32,7 +32,12 @@
               
               new Darkmode(options).showWidget();
            }
-           window.addEventListener('load', addDarkmodeWidget);
+           if (document.readyState === "complete") {
+              addDarkmodeWidget();
+           }
+           else {
+              window.addEventListener('load', addDarkmodeWidget);
+           }
         </script>
 </head>
 
