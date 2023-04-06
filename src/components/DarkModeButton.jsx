@@ -4,7 +4,7 @@ export default function DarkModeToggleButton() {
   const [darkToggle, setDarkToggle] = useState(false);
   return (
     <div
-      class={`h-screen w-full flex items-center justify-center bg-gray-300 flex-col ${
+      class={${
         darkToggle && 'dark'
       }`}
     >
