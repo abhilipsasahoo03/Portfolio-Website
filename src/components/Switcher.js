@@ -1,6 +1,6 @@
 import { useState } from "react"; 
 import { DarkModeSwitch } from "react-toggle-dark-mode"; 
-import DarkMode from "../components/DarkMode.jsx"; 
+import DarkMode from "../components/DarkMode.js"; 
 
 export default function Switcher() { 
     const [colorTheme, setTheme] = DarkMode(); 
