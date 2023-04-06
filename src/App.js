@@ -1,10 +1,10 @@
 import React from "react";
-import About from "./components/About";
-import Contact from "./components/Contact";
-import Navbar from "./components/Navbar";
-import Projects from "./components/Projects";
-import Skills from "./components/Skills";
-import OpenSource from "./components/OpenSource";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
+import Navbar from "./pages/Navbar";
+import Projects from "./pages/Projects";
+import Skills from "./pages/Skills";
+import OpenSource from "./pages/OpenSource";
 
 export default function App() {
   return (
