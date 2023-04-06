@@ -1,6 +1,6 @@
 import React from "react";
 
-default export function DarkModeToggleButton() {
+export default function DarkModeToggleButton() {
   var themeToggleDarkIcon = document.getElementById('theme-toggle-dark-icon');
   var themeToggleLightIcon = document.getElementById('theme-toggle-light-icon');
 
