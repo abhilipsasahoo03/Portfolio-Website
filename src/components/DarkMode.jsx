@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 
 export default function DarkMode() { 
     const [theme, setTheme] = useState(localStorage.theme); 
-    const colorTheme = theme === "dark" ? '<img src="./sun.png" alt="Sun" width="20" height="20" />' : '<img src="./moon.png" alt="Moon" width="20" height="20" />'; 
+    const colorTheme = theme === "dark" ? "light" : "dark"; 
     useEffect(() => { 
         const root = window.document.documentElement; 
         root.classList.remove(colorTheme); 
