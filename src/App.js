@@ -5,13 +5,13 @@ import Navbar from "./pages/Navbar";
 import Projects from "./pages/Projects";
 import Skills from "./pages/Skills";
 import OpenSource from "./pages/OpenSource";
-import Switcher from "./components/Switcher"; 
+import DarkModeToggle from "./components/DarkModeToggle"; 
 
 export default function App() {
   return (
     <main className="bg-white dark:bg-slate-800">
       <Navbar />
-      <center><Switcher /></center>
+      <center><DarkModeToggle /></center>
       <About />
     </main>
   );
