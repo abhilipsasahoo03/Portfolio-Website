@@ -9,7 +9,7 @@ body.light-mode #about {
 }
 
 body.dark-mode {
-  background-color: #10171d;
+  background-color: rgb(51 65 85);
   color: #dfdfdf;
 }
 
