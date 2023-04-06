@@ -14,10 +14,6 @@ const DarkModeToggle = () => {
       </button>
       <Toggle 
         checked={darkMode.value}
-        icons={{
-          checked: "🌓",
-          unchecked: "🌓",
-        }}
         onChange={darkMode.toggle}
       />
       <button type="button" onClick={darkMode.enable}>
