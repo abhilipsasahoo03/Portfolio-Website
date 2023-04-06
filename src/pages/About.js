@@ -3,14 +3,14 @@ import TypeWriter from "../components/TypeWriter.jsx";
 
 export default function About(props) {
   return (
-    <div class="bg-white dark:bg-slate-800 ">
+    <div class="bg-white dark:bg-slate-800 top-0">
       <section id="about">
         <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
             <TypeWriter />
             <br />
             <br className="hidden lg:inline-block" />
-            <h2 className="title-font !bg-gradient-to-br !from-pink-300 !via-purple-300 !to-indigo-400 text-2xl font-extrabold inline-block text-transparent bg-clip-text dark:text-white sm:text-3xl">
+            <h2 className="title-font !bg-gradient-to-br !from-pink-300 !via-purple-300 !to-indigo-400 !text-2xl font-extrabold inline-block text-transparent bg-clip-text sm:text-3xl">
               Developer. Programmer. Open source enthusiast.
             </h2>
             <br />
