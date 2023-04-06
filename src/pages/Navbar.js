@@ -1,6 +1,5 @@
 import { ArrowRightIcon } from "@heroicons/react/solid";
 import React from "react";
-import DarkModeToggleButton from "../components/DarkModeButton.jsx";
 
 export default function Navbar() {
   return (
@@ -21,7 +20,6 @@ export default function Navbar() {
           <a href="#opensource" className="mr-5 hover:text-gray">
             Open Source
           </a>
-          <DarkModeToggleButton />
         </nav>
         <a
           href="#contact"
