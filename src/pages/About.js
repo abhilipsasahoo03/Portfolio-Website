@@ -27,7 +27,7 @@ export default function About(props) {
               </a>
               <a
                 href="#projects"
-                className="ml-4 inline-flex text-gray-400 bg-pink-800 border-0 py-2 px-6 focus:outline-none  hover:text-white rounded text-lg"
+                className="ml-4 inline-flex !text-white !bg-violet-300 border-0 py-2 px-6 focus:outline-none !hover:bg-violet-500 rounded text-lg"
               >
                 See My Past Work
               </a>
