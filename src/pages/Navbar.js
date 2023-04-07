@@ -23,7 +23,7 @@ export default function Navbar() {
         </nav>
         <a
           href="#contact"
-          className="inline-flex items-center bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-3xl font-extrabold text-transparent bg-clip-text border-0 py-1 px-3 focus:outline-none rounded text-base mt-4 md:mt-0"
+          className="inline-flex items-center bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-4xl font-extrabold text-transparent bg-clip-text border-0 py-1 px-3 focus:outline-none rounded mt-4 md:mt-0"
           id="hireme"
         >
           Hire Me
