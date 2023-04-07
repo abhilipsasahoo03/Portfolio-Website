@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Navbar() {
   return (
-    <header className="md:sticky top-0 z-10">
+    <header className="md:sticky top-0 z-10" id="header">
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
         <a className="title-font font-extrabold mb-4 md:mb-0">
           <a href="#about" className="ml-3 text-xl">
