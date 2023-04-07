@@ -10,7 +10,7 @@ import "./styles.css";
 
 export default function App() {
   return (
-    <main className="">
+    <main className="main">
       <Navbar />
       <center><DarkModeToggle /></center>
       <About />
