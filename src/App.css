@@ -3,6 +3,14 @@ body .main {
   width: 100%;
 }
 
+.content {
+  position: absolute;
+  left: 50%; 
+  margin-top: 5rem;
+  transform: translateX(-50%);
+  width: 80%;
+}
+
 body.light-mode {
   background-color: #fff;
   background-image: url(./assets/Tracelight.svg);
