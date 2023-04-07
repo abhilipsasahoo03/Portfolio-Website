@@ -21,15 +21,15 @@ export default function About(props) {
             <div className="flex justify-center">
               <a
                 href="#contact"
-                className="inline-flex !text-white bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 border-0 py-2 px-6 focus:outline-none !hover:bg-pink-600 rounded text-lg"
+                className="inline-flex bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 border-0 py-2 px-6 focus:outline-none !hover:bg-pink-600 rounded text-lg"
               >
-                Work With Me
+               <p bg-white inline-block text-transparent bg-clip-text> Work With Me </p>
               </a>
               <a
                 href="#projects"
-                className="ml-4 inline-flex !text-white bg-gradient-to-r from-violet-500 to-blue-300 border-0 py-2 px-6 focus:outline-none !hover:bg-violet-500 rounded text-lg"
+                className="ml-4 inline-flex bg-gradient-to-r from-violet-500 to-blue-300 border-0 py-2 px-6 focus:outline-none !hover:bg-violet-500 rounded text-lg"
               >
-                See My Past Work
+               <p inline-block bg-white text-transparent bg-clip-text> See My Past Work </p>
               </a>
             </div>
           </div>
