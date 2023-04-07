@@ -5,7 +5,7 @@ body .main {
 
 body.light-mode {
   background-color: #fff;
-  background-image: url(../public/Tracelight.svg);
+  background-image: url(./assets/Tracelight.svg);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -16,7 +16,7 @@ body.light-mode {
 
 body.dark-mode {
   background-color: #171717;
-  background-image: url(../public/Tracedark.svg);
+  background-image: url(./assets/Tracedark.svg);
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -48,5 +48,5 @@ body.dark-mode {
 
 @font-face {
    font-family: 'Blank Font';
-   src: url(../public/BlanksscriptpersonaluseBdit-jEM6O.otf);
+   src: url(./assets/BlanksscriptpersonaluseBdit-jEM6O.otf);
 }
