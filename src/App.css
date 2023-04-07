@@ -1,4 +1,4 @@
-body .main {
+body {
   height: 100%;
   width: 100%;
 }
@@ -15,7 +15,7 @@ body .main {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  position: fixed;
+  position: sticky;
   z-index: -1;
 }
 
