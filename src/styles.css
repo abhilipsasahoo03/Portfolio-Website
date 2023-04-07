@@ -28,11 +28,11 @@ body.dark-mode {
 }
 
 #workwithme {
-  -webkit-text-stroke: 0.5px black;
+  -webkit-text-stroke: 1.3px black;
 }
 
 #seemywork {
-  -webkit-text-stroke: 0.5px black;
+  -webkit-text-stroke: 1.3px black;
 }
 
 @font-face {
