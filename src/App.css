@@ -21,7 +21,7 @@ body .main {
   z-index: -1;
 }
 
-body.light-mode .main .content{
+body.light-mode .main {
   background-color: #fff;
   background-image: url(./assets/Tracelight.svg);
   color: #333;
@@ -29,9 +29,19 @@ body.light-mode .main .content{
   
 }
 
-body.dark-mode .main .content{
+body.dark-mode .main {
   background-color: #171717;
   background-image: url(./assets/Tracedark.svg);
+  color: #dfdfdf;
+}
+
+body.light-mode .content {
+  background-color: #fff;
+  color: #333;
+}
+
+body.light-mode .content {
+  background-color: #171717;
   color: #dfdfdf;
 }
 
