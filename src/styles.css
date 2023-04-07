@@ -2,8 +2,9 @@
 @tailwind base;
 @tailwind utilities;
 
-body {
+body .main {
   height: 100%;
+  width: 100%;
 }
 
 body.light-mode {
