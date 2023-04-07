@@ -11,6 +11,14 @@ body .main {
   width: 80%;
 }
 
+.content.light-mode {
+  color: #333;
+}
+
+.content.dark-mode {
+  color: #dfdfdf;
+}
+
 body.light-mode .main {
   background-color: #fff;
   background-image: url(./assets/Tracelight.svg);
