@@ -2,7 +2,11 @@
 @tailwind base;
 @tailwind utilities;
 
-body.light-mode #aboutline {
+body {
+  height: 100%;
+}
+
+body.light-mode {
   background-color: #fff;
   background-image: url(./tracelight.svg);
   background-size: cover;
