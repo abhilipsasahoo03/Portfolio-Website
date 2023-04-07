@@ -4,7 +4,7 @@ import TypeWriter from "../components/TypeWriter.jsx";
 export default function About(props) {
   return (
     <div class="top-0" id="aboutline">
-     <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+     <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
             <img
               src="./MyPic.jpg"
               className="justify-center"
@@ -19,7 +19,7 @@ export default function About(props) {
               alt="hero"
               src="./MySignature.png"
             />
-          </div>
+      </div>
       <section id="about">
         <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center" id="aboutcont">
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
