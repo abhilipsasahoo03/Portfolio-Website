@@ -6,7 +6,7 @@ import Projects from "./pages/Projects";
 import Skills from "./pages/Skills";
 import OpenSource from "./pages/OpenSource";
 import DarkModeToggle from "./components/DarkModeToggle"; 
-import "./styles.css";
+import "./App.css";
 
 export default function App() {
   return (
