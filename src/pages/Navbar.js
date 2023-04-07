@@ -1,4 +1,3 @@
-import { ArrowRightIcon } from "@heroicons/react/solid";
 import React from "react";
 
 export default function Navbar() {
@@ -22,12 +21,11 @@ export default function Navbar() {
           </a>
         </nav>
         <a
-          href="#contact"
+          href="https://www.buymeacoffee.com/abhilipsasahoo"
           className="inline-flex items-center bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-4xl font-extrabold text-transparent bg-clip-text border-0 py-1 px-3 focus:outline-none rounded mt-4 md:mt-0"
           id="hireme"
         >
-          Hire Me
-          <ArrowRightIcon className="w-4 h-4 ml-1" />
+          Buy me a 🍕
         </a>
       </div>
     </header>
