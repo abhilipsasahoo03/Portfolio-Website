@@ -6,7 +6,7 @@ export default function About(props) {
     <div class="top-0" id="aboutline">
      <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
             <img
-              src="../assets/MyPic.jpg"
+              src="./MyPic.jpg"
               className="justify-center"
               width="80"
               height="80"
