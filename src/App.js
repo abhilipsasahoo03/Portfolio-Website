@@ -10,6 +10,7 @@ import "./App.css";
 
 export default function App() {
   return (
+   <>
     <div className="main">
     </div>
     <main className="content">
@@ -17,5 +18,6 @@ export default function App() {
       <center><DarkModeToggle /></center>
       <About />
     </main>
+   </>
   );
 }
