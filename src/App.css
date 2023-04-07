@@ -15,6 +15,7 @@ body .main {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  background-attachment: fixed;
   height: 100vh;
   width: 100vw;
   position: fixed;
@@ -36,12 +37,12 @@ body.dark-mode .main {
 }
 
 body.light-mode .content {
-  background-color: #fff;
+  background-color: transparent;
   color: #333;
 }
 
 body.dark-mode .content {
-  background-color: #171717;
+  background-color: transparent;
   color: #dfdfdf;
 }
 
