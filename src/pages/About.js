@@ -8,8 +8,8 @@ export default function About(props) {
             <img
               src="./MyPic.jpg"
               className="justify-center"
-              width="80"
-              height="80"
+              width="200"
+              height="200"
               id="mypic"
               alt="My Pic"
             />
