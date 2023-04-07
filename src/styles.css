@@ -9,7 +9,7 @@ body .main {
 
 body.light-mode {
   background-color: #fff;
-  background-image: url(./tracelight.svg);
+  background-image: url(./Tracelight.svg);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -20,7 +20,7 @@ body.light-mode {
 
 body.dark-mode {
   background-color: #171717;
-  background-image: url(./tracedark.svg);
+  background-image: url(./Tracedark.svg);
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
