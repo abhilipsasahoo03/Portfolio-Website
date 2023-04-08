@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-const words = ["Abhilipsa Sahoo.", "into building stuff.", "into literature & pop-culture."];
+const words = ["Abhilipsa Sahoo.", "into building stuff.", "into literature & pop-culture.", "interested in engaging with communities"];
 
 export default function TypeWriter() {
   const [index, setIndex] = useState(0);

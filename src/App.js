@@ -5,18 +5,20 @@ import Navbar from "./pages/Navbar";
 import Projects from "./pages/Projects";
 import Skills from "./pages/Skills";
 import OpenSource from "./pages/OpenSource";
+import Blogs from "./pages/Blogs";
 import DarkModeToggle from "./components/DarkModeToggle"; 
 import "./App.css";
 
 export default function App() {
   return (
    <>
-    <div className="main">
+    <div className="main h-0">
     </div>
-    <main className="content">
-      <Navbar />
+    <Navbar />
+    <main className="content h-0 p-0">
       <center><DarkModeToggle /></center>
       <About />
+      <Blogs />
     </main>
    </>
   );
