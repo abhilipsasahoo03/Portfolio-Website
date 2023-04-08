@@ -84,10 +84,12 @@ body.dark-mode .navcomp {
 body.light-mode #mypic {
   border: solid 2px #000;
   box-shadow: 10px 10px #000;
+}
 
 body.dark-mode #mypic {
   border: solid 2px #fff;
   box-shadow: 10px 10px #fff;
+}
 
 body.light-mode .card {
   height: 420px;
