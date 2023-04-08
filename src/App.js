@@ -12,9 +12,9 @@ import "./App.css";
 export default function App() {
   return (
    <>
-    <div className="main h-0">
+    <div className="main">
     </div>
-    <main className="content h-0 p-0">
+    <main className="content">
       <Navbar />
       <center><DarkModeToggle /></center>
       <About />
