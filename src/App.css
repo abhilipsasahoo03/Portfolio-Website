@@ -30,7 +30,7 @@ body.light-mode .main {
 }
 
 body.dark-mode .main {
-  background-color: #000;
+  background-color: #050505;
   background-image: url(./assets/Tracedark.svg);
   color: #dfdfdf;
 }
@@ -82,23 +82,23 @@ body.dark-mode .navcomp {
 }
 
 body.light-mode #mypic {
-  border: solid 2px #000;
-  box-shadow: 10px 10px #000;
+  border: solid 2px #050505;
+  box-shadow: 10px 10px #050505;
 }
 
 body.dark-mode #mypic {
-  border: solid 2px #fff;
-  box-shadow: 10px 10px #fff;
+  border: solid 2px #fafafa;
+  box-shadow: 10px 10px #fafafa;
 }
 
 body.light-mode .card {
   height: 420px;
   width: 320px;
   padding: 10px;
-  border: solid 2px #000;
-  box-shadow: 10px 10px #000;
+  border: solid 2px #050505;
+  box-shadow: 10px 10px #050505;
   text-align: inherit;
-  background-color: #fff;
+  background-color: #fafafa;
   border-radius: 8px;
   margin: 20px;
   text-overflow: ellipsis;
@@ -108,8 +108,8 @@ body.dark-mode .card {
   height: 420px;
   width: 320px;
   padding: 10px;
-  border: solid 2px #fff;
-  box-shadow: 10px 10px #fff;
+  border: solid 2px #fafafa;
+  box-shadow: 10px 10px #fafafa;
   text-align: inherit;
   margin: 20px;
   background-color: #171717;
