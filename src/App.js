@@ -14,8 +14,8 @@ export default function App() {
    <>
     <div className="main h-0">
     </div>
-    <Navbar />
     <main className="content h-0 p-0">
+      <Navbar />
       <center><DarkModeToggle /></center>
       <About />
       <Blogs />
