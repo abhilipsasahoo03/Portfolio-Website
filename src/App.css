@@ -1,4 +1,4 @@
-body .main {
+body {
   height: 100%;
   width: 100%;
 }
@@ -22,7 +22,7 @@ body .main {
 }
 
 body.light-mode .main {
-  background-color: #fff;
+  background-color: #fafafa;
   background-image: url(./assets/Tracelight.svg);
   color: #333;
   transition: background-color 0.3s ease;
@@ -30,7 +30,7 @@ body.light-mode .main {
 }
 
 body.dark-mode .main {
-  background-color: #171717;
+  background-color: #000;
   background-image: url(./assets/Tracedark.svg);
   color: #dfdfdf;
 }
