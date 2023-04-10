@@ -79,13 +79,15 @@ body.dark-mode .navcomp {
 
 body.light-mode .mypic {
   border: solid 2px #050505;
-  box-shadow: 10px 10px #050505;
+  box-shadow: 10px 10px;
+  color: #050505;
   border-radius: 50%;
 }
 
 body.dark-mode .mypic {
   border: solid 2px #fafafa;
-  box-shadow: 10px 10px #fafafa;
+  box-shadow: 10px 10px;
+  color: #fafafa;
   border-radius: 50%;
 }
 
