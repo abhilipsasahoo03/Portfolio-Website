@@ -37,7 +37,7 @@ class Blogs extends React.Component {
               </h1>
             </div>
             <br />
-            <div className="mx-auto flex px-10 flex-wrap items-center">
+            <div className="mx-auto flex px-10 flex-wrap items-center blogcard">
             {this.state.posts.map((post, index) => (
                   <a key={index} href={`https://abelisaurus.hashnode.dev/${post.slug}`} >
                     <BlogCard post={post} />
