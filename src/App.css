@@ -96,7 +96,6 @@ body.light-mode .card {
   padding: 10px;
   border: solid 2px #050505;
   box-shadow: 10px 10px #050505;
-  left: 50%;
   text-align: inherit;
   background-color: #fafafa;
   border-radius: 8px;
@@ -111,12 +110,14 @@ body.dark-mode .card {
   border: solid 2px #fafafa;
   box-shadow: 10px 10px #fafafa;
   text-align: inherit;
-  left: 50%;
   margin: 20px;
   background-color: #171717;
   border-radius: 8px;
   text-overflow: ellipsis;
+}
 
+.blogcard {
+  left: 50%;
 }
 
 @font-face {
