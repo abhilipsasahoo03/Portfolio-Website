@@ -11,7 +11,7 @@ export default function About(props) {
               src="./MyPic.jpg"
               width="250"
               height="250"
-              id="mypic"
+              className="mypic"
               alt="My Pic"
             />
             <img
