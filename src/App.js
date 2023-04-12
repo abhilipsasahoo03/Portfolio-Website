@@ -1,4 +1,5 @@
 import React from "react";
+import { Route, Routes } from "react-router-dom";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Navbar from "./pages/Navbar";
@@ -17,8 +18,10 @@ export default function App() {
     <main className="content">
       <Navbar />
       <center><DarkModeToggle /></center>
-      <About />
-      <Blogs />
+      <Routes>
+        <Route path="/" element={<About />}/>
+        <Route path="/" element={<Blogs />}/>
+      </Routes>
     </main>
    </>
   );
