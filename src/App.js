@@ -20,7 +20,7 @@ export default function App() {
       <center><DarkModeToggle /></center>
       <Routes>
         <Route path="/" element={<About />}/>
-        <Route path="/" element={<Blogs />}/>
+        <Route path="/Blogs" element={<Blogs />}/>
       </Routes>
     </main>
    </>
