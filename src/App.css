@@ -1,5 +1,7 @@
 body, .main {
   margin: 0;
+  height: 100%;
+  width: 100%;
 }
 
 .content {
@@ -7,6 +9,7 @@ body, .main {
   left: 50%; 
   margin-top: 5rem;
   transform: translateX(-50%);
+  width: 100%;
 }
 
 .main {
