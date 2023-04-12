@@ -54,18 +54,20 @@ body.dark-mode .navcomp {
   color: #dfdfdf;
 }
 
-body.dark-mode .descdiv {
+body.light-mode .descdiv {
   background-color: #fafafa;
   color: #333;
-  border-radius: 15%;
+  border-radius: 50%;
   word-wrap: break-word;
+  box-shadow: 10px 10px 0px 0px #050505;
 }
 
-body.light-mode .descdiv {
+body.dark-mode .descdiv {
   background-color: #050505;
   color: #dfdfdf;
-  border-radius: 15%;
+  border-radius: 50%;
   word-wrap: break-word;
+  box-shadow: 10px 10px 0px 0px #fafafa;
 }
 
 #intro {
@@ -92,15 +94,13 @@ body.light-mode .descdiv {
 
 body.light-mode .mypic {
   border: solid 2px #050505;
-  box-shadow: 10px 10px;
-  color: #050505;
+  box-shadow: 10px 10px 0px 0px #050505;
   border-radius: 50%;
 }
 
 body.dark-mode .mypic {
   border: solid 2px #fafafa;
-  box-shadow: 10px 10px;
-  color: #fafafa;
+  box-shadow: 10px 10px 0px 0px #fafafa;
   border-radius: 50%;
 }
 
