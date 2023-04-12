@@ -54,6 +54,16 @@ body.dark-mode .navcomp {
   color: #dfdfdf;
 }
 
+body.light-mode .descdiv {
+  background-color: #fafafa;
+  color: #333;
+}
+
+body.dark-mode .descdiv {
+  background-color: #050505;
+  color: #dfdfdf;
+}
+
 #intro {
   color: pink;
   -webkit-text-stroke: 2px black;
