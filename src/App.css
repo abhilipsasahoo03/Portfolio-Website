@@ -58,12 +58,14 @@ body.dark-mode .descdiv {
   background-color: #fafafa;
   color: #333;
   border-radius: 50%;
+  word-wrap: break-word;
 }
 
 body.light-mode .descdiv {
   background-color: #050505;
   color: #dfdfdf;
   border-radius: 50%;
+  word-wrap: break-word;
 }
 
 #intro {
