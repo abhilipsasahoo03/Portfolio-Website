@@ -35,6 +35,8 @@ export default function About(props) {
                 The Shubhra Kar Linux Foundation Training Scholar 2022.
               </p>
             </div>
+            <br />
+            <br />
             <div className="flex justify-center">
               <a
                 href="#contact"
