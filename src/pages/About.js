@@ -25,11 +25,11 @@ export default function About(props) {
             <TypeWriter />
             <br />
             <br className="hidden lg:inline-block" />
-            <h2 className="title-font !bg-gradient-to-br !from-pink-300 !via-purple-300 !to-indigo-400 !text-4xl font-extrabold inline-block text-transparent bg-clip-text sm:text-5xl" id="tagline">
+            <h2 className="title-font !bg-gradient-to-br !from-pink-300 !via-purple-300 !to-indigo-400 text-5xl font-extrabold inline-block text-transparent bg-clip-text lg:text-6xl" id="tagline">
               Developer. Programmer. Open source enthusiast.
             </h2>
             <br />
-            <p className="mb-8 leading-relaxed" id="desc">
+            <p className="mb-8 leading-relaxed text-3xl lg:text-4xl" id="desc">
               Front-end Web Developer. Grace Hopper Celebration Scholar 2022.
               The Shubhra Kar Linux Foundation Training Scholar 2022.
             </p>
