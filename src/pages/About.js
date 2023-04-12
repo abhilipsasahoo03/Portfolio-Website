@@ -29,10 +29,12 @@ export default function About(props) {
               Developer. Programmer. Open source enthusiast.
             </h2>
             <br />
-            <p className="mb-8 leading-relaxed text-3xl lg:text-4xl" id="desc">
-              Front-end Web Developer. Grace Hopper Celebration Scholar 2022.
-              The Shubhra Kar Linux Foundation Training Scholar 2022.
-            </p>
+            <div className="descdiv flex justify-center rounded">
+              <p className="mb-8 leading-relaxed text-2xl lg:text-4xl" id="desc">
+                Front-end Web Developer. Grace Hopper Celebration Scholar 2022.
+                The Shubhra Kar Linux Foundation Training Scholar 2022.
+              </p>
+            </div>
             <div className="flex justify-center">
               <a
                 href="#contact"
