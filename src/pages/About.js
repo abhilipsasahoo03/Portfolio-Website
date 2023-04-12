@@ -30,7 +30,7 @@ export default function About(props) {
             </h2>
             <br />
             <div className="descdiv flex items-center justify-center rounded">
-              <p className="mb-8 mt-8 leading-relaxed lg:text-4xl" id="desc">
+              <p className="m-8 leading-relaxed lg:text-4xl" id="desc">
                 Front-end Web Developer. Grace Hopper Celebration Scholar 2022.
                 The Shubhra Kar Linux Foundation Training Scholar 2022.
               </p>
