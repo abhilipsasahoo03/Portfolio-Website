@@ -2,6 +2,7 @@ body, .main {
   margin: 0;
   height: 100vh;
   width: 100%;
+  font-family: 'The Seasons';
 }
 
 body.light-mode {
@@ -144,4 +145,9 @@ body.dark-mode .card {
 @font-face {
   font-family: 'Stinger Wide';
   src: url(./assets/stinger-wide-trial.heavy.ttf.otf);
+}
+
+@font-face {
+  font-family: 'The Seasons';
+  src: url(./assets/Fontspring-DEMO-theseasons-it.otf);
 }
