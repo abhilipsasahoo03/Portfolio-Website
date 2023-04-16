@@ -25,7 +25,7 @@ export default function About(props) {
             <TypeWriter />
             <br />
             <br className="hidden lg:inline-block" />
-            <h2 className="title-font !bg-gradient-to-br !from-pink-300 !via-purple-300 !to-indigo-400 text-5xl font-extrabold inline-block text-transparent bg-clip-text lg:text-6xl" id="tagline">
+            <h2 className="title-font !bg-gradient-to-r !from-indigo-200 !via-red-200 !to-yellow-100 !sm:text-4xl font-extrabold inline-block text-transparent bg-clip-text lg:text-6xl" id="tagline">
               Developer. Programmer. Open source enthusiast.
             </h2>
             <br />
