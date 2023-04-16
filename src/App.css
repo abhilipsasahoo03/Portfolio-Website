@@ -80,13 +80,13 @@ body.dark-mode .descdiv {
 }
 
 #intro {
-  color: pink;
   -webkit-text-stroke: 2px black;
   font-family: 'Stinger Wide';
 }
 
 #tagline, #bloghead {
   -webkit-text-stroke: 2px black;
+  color: pink;
 }
 
 #hireme {
