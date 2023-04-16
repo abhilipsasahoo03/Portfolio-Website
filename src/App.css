@@ -108,7 +108,7 @@ body.dark-mode .mypic {
 }
 
 body.light-mode .card {
-  height: 420px;
+  height: 440px;
   width: 320px;
   padding: 10px;
   border: solid 2px #050505;
@@ -121,7 +121,7 @@ body.light-mode .card {
 }
 
 body.dark-mode .card {
-  height: 420px;
+  height: 440px;
   width: 320px;
   padding: 10px;
   border: solid 2px #fafafa;
