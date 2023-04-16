@@ -46,7 +46,7 @@ export default function TypeWriter() {
   }, [blink]);
 
   return (
-      <h1 className="title-font sm:text-5xl text-4xl mb-4 font-extrabold" id="intro">
+      <h1 className="title-font sm:text-5xl text-4xl mb-4 !bg-gradient-to-br !from-pink-300 !via-purple-300 !to-indigo-400 text-5xl font-extrabold inline-block text-transparent bg-clip-text lg:text-6xl" id="intro">
         Hi 👋, I'm {`${words[index].substring(0, subIndex)}${blink ? "|" : " "}`}
       </h1>
   );
