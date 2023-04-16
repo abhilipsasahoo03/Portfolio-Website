@@ -82,6 +82,7 @@ body.dark-mode .descdiv {
 #intro {
   color: pink;
   -webkit-text-stroke: 2px black;
+  font-family: 'Stinger Wide';
 }
 
 #tagline, #bloghead {
@@ -146,4 +147,9 @@ body.dark-mode .card {
 @font-face {
    font-family: 'Blank Font';
    src: url(./assets/BlanksscriptpersonaluseBdit-jEM6O.otf);
+}
+
+@font-face {
+  font-family: 'Stinger Wide';
+  src: url(./assets/stinger-wide-trial.heavy.ttf.otf);
 }
