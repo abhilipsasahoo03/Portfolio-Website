@@ -81,22 +81,22 @@ body.dark-mode .descdiv {
 }
 
 body.light-mode #intro {
-  -webkit-text-stroke: 1px black;
+  -webkit-text-stroke: 1.5px black;
   font-family: 'Stinger Wide';
 }
 
 body.dark-mode #intro {
-  -webkit-text-stroke: 1px white;
+  -webkit-text-stroke: 1.5px white;
   font-family: 'Stinger Wide';
 }
 
 body.light-mode #tagline, #bloghead {
-  -webkit-text-stroke: 1px black;
+  -webkit-text-stroke: 1.5px black;
   font-family: 'Stinger Wide';
 }
 
 body.dark-mode #tagline, #bloghead {
-  -webkit-text-stroke: 1px white;
+  -webkit-text-stroke: 1.5px white;
   font-family: 'Stinger Wide';
 }
 
