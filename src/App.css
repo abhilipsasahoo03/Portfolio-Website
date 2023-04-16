@@ -2,7 +2,7 @@ body, .main {
   margin: 0;
   height: 100vh;
   width: 100%;
-  font-family: 'The Seasons';
+  font-family: 'Space Grotesk';
 }
 
 body.light-mode {
@@ -148,6 +148,6 @@ body.dark-mode .card {
 }
 
 @font-face {
-  font-family: 'The Seasons';
-  src: url(./assets/Fontspring-DEMO-theseasons-it.otf);
+  font-family: 'Space Grotesk';
+  src: url(./assets/SpaceGrotesk-Regular.otf);
 }
