@@ -7,7 +7,8 @@ const BlogCard = ({ post }) => {
             <img src={post.coverImage} alt={post.title} />
             <h2 className="font-extrabold" >{post.title}</h2>
             <p>{post.brief}</p>
-            </br>
+            <br>
+            <br>
             <p>♥️ {post.totalReactions} |  💬 {post.responseCount}</p>
         </div>
     )
