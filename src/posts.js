@@ -1,8 +1,8 @@
 export const query = `
-    query {
+    query GetUserArticles($page: Int!) {
         user(username: "abhilipsasahoo03") {
             publication {
-                posts($page: Int!) {
+                posts(page: $page) {
                     coverImage
                     title
                     brief
