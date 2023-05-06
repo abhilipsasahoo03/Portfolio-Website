@@ -43,7 +43,7 @@ class Blogs extends React.Component {
         });
         const APiResponse = await response.json();
         console.log(APiResponse.data);
-        userPosts = APiResponse.data.user.publication.posts;
+        var userPosts = APiResponse.data.user.publication.posts;
 
         if (userPosts.length === 0) {
           hasMorePosts = false;
