@@ -14,13 +14,13 @@ class Blogs extends React.Component {
         this.fetchBlogs();
     }
 
-    fetchBlogs = async(query, variables={page: 0}) => {
+    fetchBlogs = async(query, variables= {page: 0}) => {
         const response = await fetch('https://api.hashnode.com/', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
             },
-            body: JSON.stringify({ query, variables={page: 0} }),
+            body: JSON.stringify({ query, variables: {page: 0} }),
         })
         const APiResponse = await response.json();
         console.log(APiResponse.data);
