@@ -23,8 +23,7 @@ class Blogs extends React.Component {
             headers: {
                 'Content-Type': 'application/json'
             },
-            body: JSON.stringify
-              {
+            body: JSON.stringify({
                 query: `
                   query GetUserArticles {
                      user(username: "abhilipsasahoo03") {
