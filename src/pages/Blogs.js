@@ -1,6 +1,4 @@
 import React, { useEffect } from "react";
-import "../posts.js";
-import { query } from "../posts.js";
 import BlogCard from "../components/BlogCard.js";
 import { useState } from "react";
 
@@ -25,8 +23,25 @@ class Blogs extends React.Component {
             headers: {
                 'Content-Type': 'application/json'
             },
-            body: JSON.stringify({ query, variables: { page } }),
-        })
+            body: JSON.stringify
+              {
+                query: `
+                  query GetUserArticles {
+                     user(username: "abhilipsasahoo03") {
+                        publication {
+                            posts(page: ${page}) {
+                              coverImage
+                              title
+                              brief
+                              slug
+                              dateAdded
+                            }
+                       }
+                    }
+                 }
+               `,
+               variables: { page } }),
+        });
         const APiResponse = await response.json();
         console.log(APiResponse.data);
         userPosts = APiResponse.data.user.publication.posts;
