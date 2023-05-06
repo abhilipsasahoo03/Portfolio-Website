@@ -9,7 +9,7 @@ const BlogCard = ({ post }) => {
             <p>{post.brief}</p>
             <br />
             <br />
-            <p className="font-extrabold">&#9829; {post.totalReactions} | &#128172; {post.responseCount}</p>
+            <center><p className="font-extrabold">&#9829; {post.totalReactions} | &#128172; {post.responseCount}</p></center>
         </div>
     );
 }
