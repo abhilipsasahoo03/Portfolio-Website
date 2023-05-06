@@ -1,12 +1,13 @@
 import { numOfPages } from "./blogpages.js";
 
 var pagecount = numOfPages;
-
-export const query = `
+for (let i=0; i<3; i++)
+{
+ export const query = `
     query {
         user(username: "abhilipsasahoo03") {
             publication {
-                posts(page: $pagecount) {
+                posts(page: i) {
                     coverImage
                     title
                     brief
@@ -17,3 +18,4 @@ export const query = `
         }
     }
 `;
+}
