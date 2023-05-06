@@ -16,7 +16,7 @@ class Blogs extends React.Component {
 
     fetchBlogs = async() => {
        let hasMorePosts = true;
-       let page = 1;
+       let page = 0;
        let allPosts = [];
 
        while(hasMorePosts) {
