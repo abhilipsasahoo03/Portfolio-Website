@@ -7,24 +7,40 @@ import { useState } from "react";
 class Blogs extends React.Component {
     state = {
         posts: [],
-        loading: true
+        loading: true,
     };
 
     componentDidMount() {
         this.fetchBlogs();
     }
 
-    fetchBlogs = async(query, variables= {page: 0}) => {
+    fetchBlogs = async() => {
+       let hasMorePosts = true;
+       let page = 1;
+       let allPosts = [];
+
+       while(hasMorePosts) {
         const response = await fetch('https://api.hashnode.com/', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
             },
-            body: JSON.stringify({ query, variables: {page: 0} }),
+            body: JSON.stringify({ query }),
         })
         const APiResponse = await response.json();
         console.log(APiResponse.data);
-        this.setState({posts: APiResponse.data.user.publication.posts, loading: false});
+        userPosts = APiResponse.data.user.publication.posts;
+
+        if (userPosts.length === 0) {
+          hasMorePosts = false;
+          continue;
+        }
+
+        allPosts = allPosts.concat(userPosts);
+        page++;
+     }
+
+       this.setState({posts: allPosts, loading: false});
     };
   
     render() {
