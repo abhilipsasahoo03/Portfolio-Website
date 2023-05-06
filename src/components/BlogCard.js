@@ -5,7 +5,9 @@ const BlogCard = ({ post }) => {
     return (
         <div className="card">
             <img src={post.coverImage} alt={post.title} />
+            <br />
             <h2 className="font-extrabold">{post.title}</h2>
+            <br />
             <p>{post.brief}</p>
             <br />
             <br />
