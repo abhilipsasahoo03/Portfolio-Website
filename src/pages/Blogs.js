@@ -25,7 +25,7 @@ class Blogs extends React.Component {
             headers: {
                 'Content-Type': 'application/json'
             },
-            body: JSON.stringify({ query }),
+            body: JSON.stringify({ query, variables: { page } }),
         })
         const APiResponse = await response.json();
         console.log(APiResponse.data);
