@@ -34,6 +34,8 @@ class Blogs extends React.Component {
                               brief
                               slug
                               dateAdded
+                              totalReactions
+                              responseCount
                             }
                        }
                     }
