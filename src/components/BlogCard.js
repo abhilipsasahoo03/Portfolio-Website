@@ -5,13 +5,13 @@ const BlogCard = ({ post }) => {
     return (
         <div className="card">
             <img src={post.coverImage} alt={post.title} />
-            <h2 className="font-extrabold" >{post.title}</h2>
+            <h2 className="font-extrabold">{post.title}</h2>
             <p>{post.brief}</p>
             <br>
             <br>
-            <p>♥️ {post.totalReactions} |  💬 {post.responseCount}</p>
+            <p className="font-extrabold">♥️ {post.totalReactions} |  💬 {post.responseCount}</p>
         </div>
-    )
+    );
 }
 
 export default BlogCard
