@@ -136,8 +136,13 @@ body.dark-mode .card {
 }
 
 body.light-mode .line {
-  height: 4px;
-  color: #050505;
+  height: 2px;
+  background-color: #050505;
+}
+
+body.light-mode .line {
+  height: 2px;
+  background-color: #fafafa;
 }
 
 .buttons {
@@ -145,9 +150,10 @@ body.light-mode .line {
   width: 400px;
   padding: 4px;
   display: flex;
+  gap: 3px;
 }
 
-body.light-mode .buttons.button-red, body.light-mode .buttons.button-yellow, body.light-mode .buttons.button-green {
+body.light-mode .buttons .button-red, body.light-mode .buttons .button-yellow, body.light-mode .buttons .button-green {
   border: 2px solid #050505;
 }
 
@@ -155,23 +161,23 @@ body.dark-mode .buttons.button-red, body.dark-mode .buttons.button-yellow, body.
   border: 2px solid #fafafa;
 }
 
-.buttons.button-red {
-  width: 8px;
-  height: 8px;  
+.buttons .button-red {
+  width: 15px;
+  height: 15px;  
   border-radius: 50%;
   background-color: red;
 }
 
-.buttons.button-yellow {
-  width: 8px;
-  height: 8px;
+.buttons .button-yellow {
+  width: 15px;
+  height: 15px;
   border-radius: 50%;
   background-color: yellow;
 }
 
-.buttons.button-green {
-  width: 8px;
-  height: 8px;
+.buttons .button-green {
+  width: 15px;
+  height: 15px;
   border-radius: 50%;
   background-color: green;
 }
