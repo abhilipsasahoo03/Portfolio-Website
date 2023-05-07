@@ -190,7 +190,7 @@ body.dark-mode .buttons .button-red, body.dark-mode .buttons .button-yellow, bod
   body.light-mode .card, body.dark-mode .content {
      width: 220px;
      height: 290px;
-     margin: 5px;
+     margin: 15px;
   }
 
  body.light-mode .buttons, body.dark-mode .buttons {
