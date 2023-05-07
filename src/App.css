@@ -186,6 +186,32 @@ body.dark-mode .buttons .button-red, body.dark-mode .buttons .button-yellow, bod
   left: 40%;
 }
 
+@media screen and (max-width: 600px) {
+  .card {
+     width: 220px;
+     height: 290px;
+     margin: 5px;
+  }
+
+  .buttons {
+    width: 220px;
+  }
+
+  .cardcontent {
+    width: 220px;
+    height: 280px;
+    font-size: 2vmin;
+  }
+
+  .button-red, .button-yellow, .button-green {
+    width: 8px;
+    height: 8px;
+    border: 1px;
+  }
+
+}
+
+
 @font-face {
    font-family: 'Blank Font';
    src: url(./assets/BlanksscriptpersonaluseBdit-jEM6O.otf);
