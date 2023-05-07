@@ -4,7 +4,11 @@ import '../App.css';
 const BlogCard = ({ post }) => {
     return (
         <div className="card">
-          <br />
+          <div className="buttons">
+             <div className="button-red"></div>
+             <div className="button-yellow"></div>
+             <div className="button-green"></div>
+          </div>
           <hr className="line"/>
           <div className="cardcontent">
             <img src={post.coverImage} alt={post.title} />
