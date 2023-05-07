@@ -4,8 +4,8 @@ import '../App.css';
 const BlogCard = ({ post }) => {
     return (
         <div className="card">
-          <div className="window">
-          </div>
+            <br />
+            <hr className="line"/>
             <br />
             <img src={post.coverImage} alt={post.title} />
             <br />
