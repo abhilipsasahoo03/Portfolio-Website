@@ -137,12 +137,12 @@ body.dark-mode .card {
 
 body.light-mode .line {
   height: 2px;
-  background-color: #050505;
+  background-color: black;
 }
 
 body.light-mode .line {
   height: 2px;
-  background-color: #fafafa;
+  background-color: white;
 }
 
 .buttons {
@@ -157,7 +157,7 @@ body.light-mode .buttons .button-red, body.light-mode .buttons .button-yellow, b
   border: 2px solid #050505;
 }
 
-body.dark-mode .buttons.button-red, body.dark-mode .buttons.button-yellow, body.dark-mode .buttons.button-green {
+body.dark-mode .buttons .button-red, body.dark-mode .buttons .button-yellow, body.dark-mode .buttons .button-green {
   border: 2px solid #fafafa;
 }
 
@@ -172,14 +172,14 @@ body.dark-mode .buttons.button-red, body.dark-mode .buttons.button-yellow, body.
   width: 15px;
   height: 15px;
   border-radius: 50%;
-  background-color: yellow;
+  background-color: #ffcc33;
 }
 
 .buttons .button-green {
   width: 15px;
   height: 15px;
   border-radius: 50%;
-  background-color: green;
+  background-color: #32CD32;
 }
 
 .blogcard {
