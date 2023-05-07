@@ -136,12 +136,14 @@ body.dark-mode .card {
 }
 
 body.light-mode .line {
-  height: 2px;
+  padding-top: 4px;
+  height: 4px;
   color: #050505;
 }
 
 body.dark-mode .window {
-  height: 2px;
+  padding-top: 4px;
+  height: 4px;
   color: #fafafa;
 }
 
