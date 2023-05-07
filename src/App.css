@@ -217,6 +217,19 @@ body.dark-mode .buttons .button-red, body.dark-mode .buttons .button-yellow, bod
 
 }
 
+@media screen and (max-width: 1200px)
+{
+  body.light-mode .card, body.dark-mode .card {
+     margin-left: 30px;
+  }
+}
+
+@media screen and (max-width: 1600px)
+{
+  body.light-mode .card, body.dark-mode .card {
+     margin-left: 40px;
+  }
+}
 
 @font-face {
    font-family: 'Blank Font';
