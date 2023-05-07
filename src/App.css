@@ -136,15 +136,44 @@ body.dark-mode .card {
 }
 
 body.light-mode .line {
-  padding-top: 4px;
   height: 4px;
   color: #050505;
 }
 
-body.dark-mode .window {
-  padding-top: 4px;
-  height: 4px;
-  color: #fafafa;
+.buttons {
+  background-color: transparent;
+  width: 400px;
+  padding: 4px;
+  display: flex;
+}
+
+body.light-mode .buttons.button-red, body.light-mode .buttons.button-yellow, body.light-mode .buttons.button-green {
+  border: 2px solid #050505;
+}
+
+body.dark-mode .buttons.button-red, body.dark-mode .buttons.button-yellow, body.dark-mode .buttons.button-green {
+  border: 2px solid #fafafa;
+}
+
+.buttons.button-red {
+  width: 8px;
+  height: 8px;  
+  border-radius: 50%;
+  background-color: red;
+}
+
+.buttons.button-yellow {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: yellow;
+}
+
+.buttons.button-green {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: green;
 }
 
 .blogcard {
