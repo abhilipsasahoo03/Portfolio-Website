@@ -187,13 +187,13 @@ body.dark-mode .buttons .button-red, body.dark-mode .buttons .button-yellow, bod
 }
 
 @media screen and (max-width: 600px) {
-  .card {
+  body.light-mode .card, body.dark-mode .content {
      width: 220px;
      height: 290px;
      margin: 5px;
   }
 
-  .buttons {
+ body.light-mode .buttons, body.dark-mode .buttons {
     width: 220px;
   }
 
@@ -203,7 +203,13 @@ body.dark-mode .buttons .button-red, body.dark-mode .buttons .button-yellow, bod
     font-size: 2vmin;
   }
 
-  .button-red, .button-yellow, .button-green {
+  body.light-mode .button-red, body.light-mode .button-yellow, body.light-mode .button-green {
+    width: 8px;
+    height: 8px;
+    border: 1px;
+  }
+
+  body.dark-mode .button-red, body.dark-mode .button-yellow, body.dark-mode .button-green {
     width: 8px;
     height: 8px;
     border: 1px;
