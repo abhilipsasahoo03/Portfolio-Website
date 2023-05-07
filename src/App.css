@@ -126,20 +126,23 @@ body.dark-mode .card {
   text-overflow: ellipsis;
 }
 
-body.light-mode .window {
+.cardcontent {
+  height: 500px;
   width: 400px;
-  height: 30px;
-  background-color: #fafafa;
+  background-color: transparent;
+  padding: 10px;
+  text-overflow: ellipsis;
   border-radius: 8px;
-  border: solid 2px #050505;
+}
+
+body.light-mode .line {
+  height: 2px;
+  color: #050505;
 }
 
 body.dark-mode .window {
-  width: 400px;
-  height: 30px;
-  background-color: #171717;
-  border-radius: 8px;
-  border: solid 2px #fafafa;
+  height: 2px;
+  color: #fafafa;
 }
 
 .blogcard {
