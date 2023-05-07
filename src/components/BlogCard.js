@@ -5,6 +5,8 @@ const BlogCard = ({ post }) => {
     return (
         <div className="card">
           <div className="window">
+          </div>
+            <br />
             <img src={post.coverImage} alt={post.title} />
             <br />
             <h2 className="font-extrabold">{post.title}</h2>
@@ -13,7 +15,6 @@ const BlogCard = ({ post }) => {
             <br />
             <br />
             <center><p className="font-extrabold">&#9829; {post.totalReactions} | &#128172; {post.responseCount}</p></center>
-          </div>
         </div>
     );
 }
