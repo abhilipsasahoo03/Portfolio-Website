@@ -6,7 +6,6 @@ const BlogCard = ({ post }) => {
         <div className="card">
           <br />
           <hr className="line"/>
-          <br />
           <div className="cardcontent">
             <img src={post.coverImage} alt={post.title} />
             <br />
