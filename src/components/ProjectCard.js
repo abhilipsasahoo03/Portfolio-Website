@@ -16,10 +16,8 @@ const ProjectCard = ({ project }) => {
             </a>
             <br />
             <h2 className="font-extrabold">{project.title}</h2>
-            <br />
             <p>{project.description}</p>
             <br />
-
          </div>
         </div>
     );
