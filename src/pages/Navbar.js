@@ -16,13 +16,7 @@ export default function Navbar() {
           </p>
           <p className="mr-5 hover:text-gray">
             <Link to="/Projects">Projects</Link>
-          </p>
-          <p className="mr-5 hover:text-gray">
-            <Link to="/Skills">Skills</Link>
-          </p>
-          <p className="mr-5 hover:text-gray">
-            <Link to="/OpenSource">Open Source</Link>
-          </p>
+          </p>
           <p className="mr-5 hover:text-gray">
             <Link to="/Blogs">Blogs</Link>
           </p>
