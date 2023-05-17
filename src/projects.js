@@ -3,9 +3,7 @@ const project = [
     title: "FemmeCare",
     link: "https://tech-monk-femmcare.vercel.app/",
     coverImage: "https://user-images.githubusercontent.com/80174214/211193256-39bdaed6-b0c2-4efb-8fb0-e5745b15f11d.png",
-    description: "FemmeCare is a baby step towards prioritising and revolutionizing Women's health care. Resources page contains useful resources related to Women's reproductive and mental health, a real-time chat app using Socket.io facilitates community bonding and enabling women to share their stories with fellow women across the globe, and an integrated mental health tracker with interactive UI aids women to track their emotional and mental health in a fun way.
-
-The project is built using HTML, React.js, Tailwind CSS, Node.js, Express.js, Socket.io, Canva (for icons), Figma and PenPot (for creating wireframes).",
+    description: "FemmeCare is a baby step towards prioritising and revolutionizing Women's health care. Resources page contains useful resources related to Women's reproductive and mental health, a real-time chat app using Socket.io facilitates community bonding and enabling women to share their stories with fellow women across the globe, and an integrated mental health tracker with interactive UI aids women to track their emotional and mental health in a fun way. The project is built using HTML, React.js, Tailwind CSS, Node.js, Express.js, Socket.io, Canva (for icons), Figma and PenPot (for creating wireframes).",
   },
   {
     title: "Jordle",
