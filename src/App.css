@@ -67,7 +67,7 @@ body.dark-mode .navcomp {
 body.light-mode .descdiv {
   background-color: #fafafa;
   color: #333;
-  border-radius: 50%;
+  border-radius: 2%;
   word-wrap: break-word;
   box-shadow: 10px 10px 0px 0px #050505;
 }
@@ -75,7 +75,7 @@ body.light-mode .descdiv {
 body.dark-mode .descdiv {
   background-color: #050505;
   color: #dfdfdf;
-  border-radius: 50%;
+  border-radius: 2%;
   word-wrap: break-word;
   box-shadow: 10px 10px 0px 0px #fafafa;
 }
