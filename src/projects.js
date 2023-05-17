@@ -1,4 +1,4 @@
-const projectPosts = [
+const project = [
   {
     title: "FemmeCare",
     link: "https://tech-monk-femmcare.vercel.app/",
