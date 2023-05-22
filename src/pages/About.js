@@ -34,7 +34,6 @@ export default function About(props) {
                 Front-end Web Developer. Grace Hopper Celebration Scholar 2022.
                 The Shubhra Kar Linux Foundation Training Scholar 2022.
               </h3>
-              <br />
               <p className="m-8 w-full leading-relaxed lg:text-2xl" id="desc">
 Abhilipsa identifies herself as an idea-chaser/executor and go-getter with an inquisitive mind. She is an open source enthusiast with approved contributions towards organizations like Dcoder App, Spotify, Novu, IBM Carbon Design System, NASA TOPS, Moja Global, Open Food Facts, AnitaB.Org, EddieHub, Zero Octave, and many more.
 
