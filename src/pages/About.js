@@ -29,13 +29,13 @@ export default function About(props) {
               Developer. Programmer. Open source enthusiast.
             </h2>
             <br />
-            <div className="descdiv flex w-full items-center justify-center rounded">
-              <h3 className="m-8 leading-relaxed lg:text-3xl" id="descline">
+            <div className="descdiv flex flex-wrap items-center justify-center rounded">
+              <h3 className="m-8 w-full leading-relaxed lg:text-3xl" id="descline">
                 Front-end Web Developer. Grace Hopper Celebration Scholar 2022.
                 The Shubhra Kar Linux Foundation Training Scholar 2022.
               </h3>
               <br />
-              <p className="m-8 leading-relaxed lg:text-2xl" id="desc">
+              <p className="m-8 w-full leading-relaxed lg:text-2xl" id="desc">
 Abhilipsa identifies herself as an idea-chaser/executor and go-getter with an inquisitive mind. She is an open source enthusiast with approved contributions towards organizations like Dcoder App, Spotify, Novu, IBM Carbon Design System, NASA TOPS, Moja Global, Open Food Facts, AnitaB.Org, EddieHub, Zero Octave, and many more.
 
 She aspires to be a Front-end Web Dev and also truly believes that open source thrives at the intersection of innovation and collaboration.
