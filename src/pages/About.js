@@ -29,7 +29,7 @@ export default function About(props) {
               Developer. Programmer. Open source enthusiast.
             </h2>
             <br />
-            <div className="descdiv flex items-center justify-center rounded">
+            <div className="descdiv flex w-full items-center justify-center rounded">
               <h3 className="m-8 leading-relaxed lg:text-3xl" id="descline">
                 Front-end Web Developer. Grace Hopper Celebration Scholar 2022.
                 The Shubhra Kar Linux Foundation Training Scholar 2022.
