@@ -80,7 +80,7 @@ body.dark-mode .descdiv {
   box-shadow: 10px 10px 0px 0px #fafafa;
 }
 
-#intro, #tagline, #bloghead, #projects {
+#intro, #tagline, #bloghead, #projects, #opsrc {
   -webkit-text-stroke: 1.3px black;
   font-family: 'Stinger Wide';
 }
