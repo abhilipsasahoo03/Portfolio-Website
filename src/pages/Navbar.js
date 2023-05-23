@@ -20,6 +20,9 @@ export default function Navbar() {
           <p className="mr-5 hover:text-gray">
             <Link to="/Blogs">Blogs</Link>
           </p>
+          <p className="mr-5 hover:text-gray">
+            <Link to="/OpenSource">Open Source</Link>
+          </p>
         </nav>
         <a
           href="https://www.buymeacoffee.com/abhilipsasahoo"
