@@ -30,6 +30,12 @@ export default function About(props) {
             </h2>
             <br />
             <div className="descdiv flex flex-wrap items-center justify-center rounded">
+              <div className="flex flex-row" id="icondiv">
+              <a href="https://github.com/abhilipsasahoo03">GH</a>
+              <a href="https://linkedin.com/in/abhilipsasahoo">LI</a>
+              <a href="abhilipsasahoo03@gmail.com">GM</a>
+              </div>
+              <br />
               <h1 className="m-8 w-full leading-relaxed lg:text-3xl" id="descline">
                 Front-end Web Developer. Grace Hopper Celebration Scholar 2022.
                 The Shubhra Kar Linux Foundation Training Scholar 2022.
