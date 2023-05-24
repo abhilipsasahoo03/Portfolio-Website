@@ -34,6 +34,7 @@ export default function About(props) {
               <div className="flex flex-row" id="icondiv">
                 <a href="https://github.com/abhilipsasahoo03"><FontAwesomeIcon icon="fa-brands fa-github" id="icons" /></a>
                 <a href="https://linkedin.com/in/abhilipsasahoo"><FontAwesomeIcon icon="fa-brands fa-linkedin" id="icons" /></a>
+                <a href="https://www.twitter.com/_abelisaurus_"><FontAwesomeIcon icon="fa-brands fa-twitter" id="icons" /></a>
                 <a href="abhilipsasahoo03@gmail.com"><FontAwesomeIcon icon="fa-solid fa-envelope" id="icons" /></a>
               </div>
               <br />
