@@ -32,9 +32,9 @@ export default function About(props) {
             <br />
             <div className="descdiv flex flex-wrap items-center justify-center rounded">
               <div className="flex flex-row" id="icondiv">
-                <div><a href="https://github.com/abhilipsasahoo03"><FontAwesomeIcon icon="fa-brands fa-github" id="icons" /></a></div>
-                <div><a href="https://linkedin.com/in/abhilipsasahoo"><FontAwesomeIcon icon="fa-brands fa-linkedin" id="icons" /></a></div>
-                <div><a href="abhilipsasahoo03@gmail.com"><FontAwesomeIcon icon="fa-solid fa-envelope" id="icons" /></a></div>
+                <a href="https://github.com/abhilipsasahoo03"><FontAwesomeIcon icon="fa-brands fa-github" id="icons" /></a>
+                <a href="https://linkedin.com/in/abhilipsasahoo"><FontAwesomeIcon icon="fa-brands fa-linkedin" id="icons" /></a>
+                <a href="abhilipsasahoo03@gmail.com"><FontAwesomeIcon icon="fa-solid fa-envelope" id="icons" /></a>
               </div>
               <br />
               <h1 className="m-8 w-full leading-relaxed lg:text-3xl" id="descline">
