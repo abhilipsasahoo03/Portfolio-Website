@@ -30,8 +30,10 @@ export default function About(props) {
               Developer. Programmer. Open source enthusiast.
             </h2>
             <br />
+            <br />
+            <br />
             <div className="descdiv flex flex-wrap items-center justify-center rounded">
-              <div className="flex flex-row gap-x-8 md:gap-x-16 lg:gap-x-32 text-3xl md:text-5xl lg:text-6xl" id="icondiv">
+              <div className="flex flex-row gap-x-8 md:gap-x-16 lg:gap-x-32 text-3xl md:text-5xl lg:text-6xl mt-4" id="icondiv">
                 <a href="https://github.com/abhilipsasahoo03"><FontAwesomeIcon icon="fa-brands fa-github" id="icons" /></a>
                 <a href="https://linkedin.com/in/abhilipsasahoo"><FontAwesomeIcon icon="fa-brands fa-linkedin" id="icons" /></a>
                 <a href="https://www.twitter.com/_abelisaurus_"><FontAwesomeIcon icon="fa-brands fa-twitter" id="icons" /></a>
