@@ -16,6 +16,8 @@ export default function About(props) {
               alt="My Pic"
             />
         </div>
+        <br />
+        <br />
         <div className="container mx-auto flex md:flex-row flex-col items-center" id="aboutcont">
           <div className="lg:flex-grow lg:pr-24 md:pr-16 flex flex-col md:items-center md:text-center mb-16 items-center text-center">
             <TypeWriter />
