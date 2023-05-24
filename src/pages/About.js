@@ -14,12 +14,7 @@ export default function About(props) {
               height="250"
               className="mypic"
               alt="My Pic"
-            />
-            <img
-              className="object-cover object-center rounded"
-              alt="hero"
-              src="./MySignature.png"
-            />
+            />
         </div>
         <div className="container mx-auto flex md:flex-row flex-col items-center" id="aboutcont">
           <div className="lg:flex-grow lg:pr-24 md:pr-16 flex flex-col md:items-center md:text-center mb-16 items-center text-center">
