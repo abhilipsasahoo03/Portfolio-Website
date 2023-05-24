@@ -9,6 +9,7 @@ import OpenSource from "./pages/OpenSource";
 import Blogs from "./pages/Blogs";
 import DarkModeToggle from "./components/DarkModeToggle"; 
 import "./App.css";
+import { library } from '@fortawesome/fontawesome-svg-core';
 import { fas } from '@fortawesome/free-solid-svg-icons';
 import { faTwitter, faGitHub, faLinkedIn } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
