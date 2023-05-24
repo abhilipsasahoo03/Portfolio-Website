@@ -11,9 +11,9 @@ import DarkModeToggle from "./components/DarkModeToggle";
 import "./App.css";
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fas, faEnvelope } from '@fortawesome/free-solid-svg-icons';
-import { fab, faTwitter, faGithub, faLinkedIn } from '@fortawesome/free-brands-svg-icons';
+import { fab, faTwitter, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
-library.add(fas, fab, faTwitter, faGithub, faLinkedIn, faEnvelope);
+library.add(fas, fab, faTwitter, faGithub, faLinkedin, faEnvelope);
 
 export default function App() {
   return (
