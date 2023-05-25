@@ -11,7 +11,8 @@ export default function Navbar() {
               className="object-center"
               id="abel"
               alt="hero"
-              src="./Abelisaurus.png"
+              src="./Abel.png"
+              width="30%"
             />
           </a>
         </p>
@@ -21,7 +22,9 @@ export default function Navbar() {
           </p>
           <p className="mr-5 hover:text-gray">
             <Link to="/Projects">Projects</Link>
-          </p>
+          </p>
+
+
           <p className="mr-5 hover:text-gray">
             <Link to="/Blogs">Blogs</Link>
           </p>
