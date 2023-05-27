@@ -8,10 +8,10 @@ export default function Navbar() {
         <p className="title-font font-extrabold mb-4 md:mb-0">
           <a href="#about" className="ml-3 text-xl">
             <img
-              className="object-center"
-              id="abel"
+              className="object-center light-mode"
+              id="abellight"
               alt="hero"
-              src="./Abel.png"
+              src="./abel_light.svg"
               width="30%"
             />
           </a>
