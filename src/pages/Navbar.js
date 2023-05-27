@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export default function Navbar() {
   return (
     <header className="md:sticky top-0 z-10 navcomp" id="header">
-      <div className="container mx-auto flex p-5 flex-col md:flex-row justify-items-center">
+      <div className="container mx-auto flex p-5 flex-col md:flex-row items-center">
         <p className="title-font font-extrabold mb-4 md:mb-0">
           <a href="#about" className="ml-3 text-xl">
             <img
