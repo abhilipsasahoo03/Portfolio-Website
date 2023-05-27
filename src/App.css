@@ -101,13 +101,13 @@ body.dark-mode .descdiv {
 body.light-mode .mypic {
   border: solid 2px #050505;
   box-shadow: 10px 10px 0px 0px #050505;
-  border-radius: 50%;
+  border-radius: 30% 70% 70% 30%;
 }
 
 body.dark-mode .mypic {
   border: solid 2px #fafafa;
   box-shadow: 10px 10px 0px 0px #fafafa;
-  border-radius: 50%;
+  border-radius: 30% 70% 70% 30%;
 }
 
 body.light-mode .card {
