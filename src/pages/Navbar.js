@@ -14,7 +14,7 @@ export default function Navbar() {
               width="60%"
             />
           </a>
-        <nav className="md:mr-auto md:py-1 md:border-l flex flex-col gap-2 md:flex-row lg:flex-row text-base items-center">
+        <nav className="md:mr-auto md:py-1 flex flex-col gap-2 md:flex-row lg:flex-row text-base items-center">
           <button className="mr-5 border border-black p-2 bg-white rounded-md navbutton hover:text-gray">
             <Link to="/">About</Link>
           </button>
