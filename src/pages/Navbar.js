@@ -17,8 +17,8 @@ export default function Navbar() {
           </a>
         </p>
         <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700 flex flex-wrap items-center text-base justify-center">
-          <button className="mr-5 border-black p-2 hover:text-gray">
-            <Link to="/" className="bg-white rounded-md dark:bg-black dark:border-white" >About</Link>
+          <button className="mr-5 border border-black p-2 rounded-md dark:border-white hover:text-gray">
+            <Link to="/" className="bg-white dark:bg-black" >About</Link>
           </button>
           <button className="mr-5 hover:text-gray">
             <Link to="/Projects">Projects</Link>
