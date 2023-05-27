@@ -5,7 +5,7 @@ export default function Navbar() {
   return (
     <header className="md:sticky top-0 z-10 navcomp" id="header">
       <div className="container mx-auto flex p-5 flex-col md:flex-row items-center">
-          <a href="#about" className="mb-4 items-center text-xl">
+          <a href="#about" className="mb-4 text-xl justify-content">
             <img
               className=""
               id="abellight"
