@@ -4,9 +4,8 @@ import { Link } from "react-router-dom";
 export default function Navbar() {
   return (
     <header className="md:sticky top-0 z-10 navcomp" id="header">
-      <div className="container mx-auto flex p-5 flex-col md:flex-row items-center">
-        <p className="title-font font-extrabold mb-4 md:mb-0">
-          <a href="#about" className="ml-3 text-xl">
+      <div className="container mx-auto flex p-5 flex-col md:flex-row items-center">
+          <a href="#about" className="mb-4 items-center text-xl">
             <img
               className=""
               id="abellight"
@@ -14,8 +13,7 @@ export default function Navbar() {
               src="./abel_light.svg"
               width="50%"
             />
-          </a>
-        </p>
+          </a>
         <nav className="md:mr-auto md:ml-3 md:py-1 md:border-l md:border-gray-700 flex flex-col gap-2 md:flex-row lg:flex-row text-base justify-center">
           <button className="mr-5 border border-black p-2 bg-white rounded-md navbutton hover:text-gray">
             <Link to="/">About</Link>
