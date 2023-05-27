@@ -11,7 +11,7 @@ export default function Navbar() {
               className=""
               id="abellight"
               alt="hero"
-              src={body.className == "light-mode" ? "./abel_light.svg": "./abel_dark.svg"}
+              src="./abel_light.svg"
               width="30%"
             />
           </a>
