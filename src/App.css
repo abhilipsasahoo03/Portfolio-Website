@@ -42,6 +42,7 @@ body.dark-mode .main {
   background-color: #050505;
   background-image: url(./assets/Tracedark.svg);
   color: #dfdfdf;
+  transition: background-color 0.3s ease;
 }
 
 body.light-mode .content {
@@ -62,6 +63,13 @@ body.light-mode .navcomp {
 body.dark-mode .navcomp {
   background-color: transparent;
   color: #dfdfdf;
+}
+
+body.dark-mode .navbutton {
+  border-color: white;
+  border-width: 1px;
+  color: white;
+  background-color: #050505;
 }
 
 body.light-mode .descdiv {
