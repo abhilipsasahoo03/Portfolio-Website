@@ -39,7 +39,7 @@ body.light-mode .main {
 }
 
 .coverimg {
- background-image: url(./assets/cover_mob.svg);
+ background-image: url(./assets/cover_lap.svg);
 }
 
 body.dark-mode .main {
@@ -237,6 +237,13 @@ body.dark-mode .buttons .button-red, body.dark-mode .buttons .button-yellow, bod
 
  .coverimg {
     background-image: url(./assets/cover_mob.svg);
+  }
+}
+
+@media screen and (max-width: 920px)
+{
+  .coverimg {
+   background-image: url(./assets/cover_mob.svg);
   }
 }
 
