@@ -6,6 +6,7 @@ import React from "react";
  import Blogs from "./pages/Blogs.js"; 
  import DarkModeToggle from "./components/DarkModeToggle"; 
  import { Route, Routes } from "react-router-dom"; 
+import "./App.css";
   
  export default function App() {  
     return (  
