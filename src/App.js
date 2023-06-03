@@ -7,6 +7,7 @@ import Projects from "./pages/Projects";
 import Skills from "./pages/Skills";
 import OpenSource from "./pages/OpenSource";
 import Blogs from "./pages/Blogs";
+import CoverPage from "./pages/CoverPage";
 import DarkModeToggle from "./components/DarkModeToggle"; 
 import "./App.css";
 import { library } from '@fortawesome/fontawesome-svg-core';
@@ -18,13 +19,16 @@ library.add(fas, fab, faTwitter, faGithub, faLinkedin, faEnvelope);
 export default function App() {
   return (
    <>
+    <Routes>
+      <Route path="/" element={<CoverPage />}/>
+    </Routes>
     <div className="main">
     </div>
     <main className="content">
       <Navbar />
       <center><DarkModeToggle /></center>
       <Routes>
-        <Route path="/" element={<About />}/>
+        <Route path="/About" element={<About />}/>
         <Route path="/Blogs" element={<Blogs />}/>
         <Route path="/Projects" element={<Projects />}/>
         <Route path="/OpenSource" element={<OpenSource />}/>
