@@ -1,9 +1,10 @@
-body, .main {
+body, .main, .coverimg {
   margin: 0;
   height: 100vh;
   width: 100%;
   font-family: 'Space Grotesk';
 }
+
 
 body.light-mode {
  background-color: #fafafa;
@@ -22,7 +23,7 @@ body.dark-mode {
   height: 80vh;
 }
 
-.main {
+.main, .coverimg {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
