@@ -27,6 +27,7 @@ export default function CoverPage() {
         <Link to="/Home/About"> Welcome </Link> 
        </p>
        </div>
+       <br />
       </div>
      </div>
    </>
