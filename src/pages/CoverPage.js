@@ -14,9 +14,11 @@ export default function CoverPage() {
         </p>
       </div>
       <br />
+       <div className="descdiv flex flex-wrap items-center justify-center rounded">
         <p align="center" className="mb-8 ml-8 mr-8 w-full leading-relaxed lg:text-2xl" id="desc">
           Hello, welcome to Abhilipsa's portfolio website. Click <Link to="/Home/About">here</Link> to enter.
         </p>
+       </div>
     </div>
   );
 }
