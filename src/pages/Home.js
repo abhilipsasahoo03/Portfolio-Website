@@ -3,7 +3,7 @@ import About from "./About.js";
 import Navbar from "./Navbar.js";
 import Projects from "./Projects.js";
 import OpenSource from "./OpenSource.js";
-import DarkModeToggle from "../src/components/DarkModeToggle";
+import DarkModeToggle from "../components/DarkModeToggle";
 
 export default function App() { 
    return ( 
