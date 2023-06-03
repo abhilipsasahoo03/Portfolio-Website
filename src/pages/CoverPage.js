@@ -24,7 +24,7 @@ export default function CoverPage() {
           className="inline-flex bg-black border-0 py-2 px-6 focus:outline-none !hover:bg-pink-600 rounded text-lg" 
        > 
        <p className="text-white text-1xl font-extrabold inline-block" id="workwithme">
-        <Link to="/Home/About">here</Link> to enter.
+        <Link to="/Home/About"> Welcome </Link> 
        </p>
        </div>
       </div>
