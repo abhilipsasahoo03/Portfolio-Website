@@ -21,7 +21,6 @@ export default function App() {
   return (
    <>
     <div className="app">
-      <Navbar />
       <Routes>
         <Route exact path="/" element={<CoverPage />}/>
         <Route path="/Home/*" element={<Home />}/>
