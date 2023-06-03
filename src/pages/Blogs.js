@@ -60,7 +60,7 @@ class Blogs extends React.Component {
     };
   
     render() {
-        if (this.state.loading) return <div className="h-screen"><div className="items-center"><img src="./loader.svg" width="100" height="100" className="loaderpic" alt="Loader Pic" /></div></div>;
+        if (this.state.loading) return <div className="h-screen"><div className="items-center"><img src="/loader.svg" width="100" height="100" className="loaderpic" alt="Loader Pic" /></div></div>;
         return (
          <section id="blogs">
             <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 container mx-auto flex flex-col items-center">
