@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function CoverPage() {
   return (
@@ -15,7 +16,7 @@ export default function CoverPage() {
       <br />
       <div class="welcome">
         <p align="center" className="mb-8 ml-8 mr-8 w-full leading-relaxed lg:text-2xl" id="desc">
-          Hello, welcome to Abhilipsa's portfolio website. Click below to enter!
+          Hello, welcome to Abhilipsa's portfolio website. Click <Link to="/Home/About">here</Link> to enter.
         </p>
       </div>
     </div>
