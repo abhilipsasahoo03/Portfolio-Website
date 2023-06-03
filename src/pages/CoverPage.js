@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export default function CoverPage() {
   return (
    <>
-    <div className="top-0 coverimg">  
+    <div className="top-0 coverimg"></div> 
      <div class="content">
       <div className="marceline">
         <p align="center">
@@ -22,7 +22,6 @@ export default function CoverPage() {
         </p>
        </div>
      </div>
-    </div>
    </>
   );
 }
