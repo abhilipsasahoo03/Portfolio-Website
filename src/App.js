@@ -20,7 +20,8 @@ library.add(fas, fab, faTwitter, faGithub, faLinkedin, faEnvelope);
 export default function App() {
   return (
    <>
-    <div className="main">
+    <div className="app">
+      <Navbar />
       <Routes>
         <Route exact path="/" element={<CoverPage />}/>
         <Route path="/Home/*" element={<Home />}/>
