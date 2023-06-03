@@ -23,10 +23,7 @@ export default function App() {
     <div className="main">
       <Routes>
         <Route path="/" element={<CoverPage />}/>
-        <Route path="/Home" element={<Home />}>
-          <Navbar />
-          <Route path="/About element={<About />}/>
-        </Route>
+        <Route path="/Home/*" element={<Home />}/>
       </Routes>
     </div>
    </>
