@@ -10,7 +10,7 @@ export default function Navbar() {
               className=""
               id="abellight"
               alt="hero"
-              src="./abel_light.svg"
+              src="/abel_light.svg"
               width="60%"
             />
           </a>
