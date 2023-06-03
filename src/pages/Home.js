@@ -4,6 +4,7 @@ import Navbar from "./Navbar.js";
 import Projects from "./Projects.js";
 import OpenSource from "./OpenSource.js";
 import DarkModeToggle from "../components/DarkModeToggle";
+import { Route, Routes } from "react-router-dom";
 
 export default function App() { 
    return ( 
