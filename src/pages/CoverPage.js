@@ -29,6 +29,8 @@ export default function CoverPage() {
        </div>
        <br />
       </div>
+      <br />
+      <br />
      </div>
    </>
   );
