@@ -39,7 +39,7 @@ body.light-mode .main {
 }
 
 .coverimg {
- background-image: url(./assets/cover_mob.png);
+ background-image: url(./assets/cover_mob.svg);
 }
 
 body.dark-mode .main {
@@ -235,6 +235,9 @@ body.dark-mode .buttons .button-red, body.dark-mode .buttons .button-yellow, bod
     border: 1px;
   }
 
+ .coverimg {
+    background-image: url(./assets/cover_mob.svg);
+  }
 }
 
 @media screen and (max-width: 1200px)
@@ -242,12 +245,20 @@ body.dark-mode .buttons .button-red, body.dark-mode .buttons .button-yellow, bod
   body.light-mode .card, body.dark-mode .card {
      margin-left: 30px;
   }
+  
+  .coverimg {
+   background-image: url(./assets/cover_lap.svg);
+  }
 }
 
 @media screen and (max-width: 1600px)
 {
   body.light-mode .card, body.dark-mode .card {
      margin-left: 40px;
+  }
+  
+  .coverimg {
+   background-image: url(./assets/cover_lap.svg);
   }
 }
 
