@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 export default function CoverPage() {
   return (
    <>
-    <div className="top-0 content">  
-     <div class="coverimg">
+    <div className="top-0 coverimg">  
+     <div class="content">
       <div className="marceline">
         <p align="center">
          <img
