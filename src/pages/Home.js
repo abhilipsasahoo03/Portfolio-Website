@@ -14,11 +14,11 @@ export default function App() {
        <Navbar /> 
        <center><DarkModeToggle /></center> 
        <Routes> 
-         <Route path="About" element={<About />}/> 
-         <Route path="Blogs" element={<Blogs />}/> 
+         <Route path="/About" element={<About />}/> 
+         <Route path="/Blogs" element={<Blogs />}/> 
          <Route path="/
 Projects" element={<Projects />}/> 
-         <Route path="OpenSource" element={<OpenSource />}/> 
+         <Route path="/OpenSource" element={<OpenSource />}/> 
        </Routes> 
      </main> 
     </> 
