@@ -16,16 +16,16 @@ export default function Navbar() {
           </a>
         <nav className="md:mr-auto md:py-1 flex flex-col gap-2 md:flex-row lg:flex-row text-base items-center">
           <button className="mr-5 border border-black p-2 bg-white rounded-md navbutton hover:text-gray">
-            <Link to="/About">About</Link>
+            <Link to="/Home/About">About</Link>
           </button>
           <button className="mr-5 border border-black p-2 bg-white rounded-md navbutton hover:text-gray">
-            <Link to="/Projects">Projects</Link>
+            <Link to="/Home/Projects">Projects</Link>
           </button>
           <button className="mr-5 border border-black p-2 bg-white rounded-md navbutton hover:text-gray">
-            <Link to="/Blogs">Blogs</Link>
+            <Link to="/Home/Blogs">Blogs</Link>
           </button>
           <button className="mr-5 border border-black p-2 bg-white rounded-md navbutton hover:text-gray">
-            <Link to="/OpenSource">Open Source</Link>
+            <Link to="/Home/OpenSource">Open Source</Link>
           </button>
         </nav>
         <a
