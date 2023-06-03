@@ -36,7 +36,10 @@ body.light-mode .main {
   background-image: url(./assets/Tracelight.svg);
   color: #333;
   transition: background-color 0.3s ease;
-  
+}
+
+.coverimg {
+ background-image: url(./assets/cover_mob.png);
 }
 
 body.dark-mode .main {
