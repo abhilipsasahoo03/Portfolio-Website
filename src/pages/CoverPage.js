@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export default function CoverPage() {
   return (
-    <div class="top-0">
+    <div class="top-0 coverimg">
       <div className="marceline">
         <p align="center">
          <img
