@@ -15,7 +15,6 @@ export default function CoverPage() {
          />
         </p>
       </div>
-      <br />
        <div className="introdiv flex flex-wrap items-center justify-center rounded">
         <p align="center" className="mb-8 ml-8 mr-8 w-full leading-relaxed lg:text-2xl" id="desc">
           Hello, thanks for visiting Abhilipsa's portfolio website. Click below to enter.
