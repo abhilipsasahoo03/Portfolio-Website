@@ -3,6 +3,7 @@ import About from "./About.js";
 import Navbar from "./Navbar.js";
 import Projects from "./Projects.js";
 import OpenSource from "./OpenSource.js";
+import Blogs from "./Blogs.js";
 import DarkModeToggle from "../components/DarkModeToggle";
 import { Route, Routes } from "react-router-dom";
 
