@@ -8,7 +8,7 @@ import Skills from "./pages/Skills";
 import OpenSource from "./pages/OpenSource";
 import Blogs from "./pages/Blogs";
 import CoverPage from "./pages/CoverPage";
-import Home from "./pages/Home";
+import Home from "./Home";
 import DarkModeToggle from "./components/DarkModeToggle"; 
 import "./App.css";
 import { library } from '@fortawesome/fontawesome-svg-core';
