@@ -23,7 +23,7 @@ export default function App() {
     <div className="main">
       <Routes>
         <Route path="/" element={<CoverPage />}/>
-        <Route path="/Home" element={<Home />}></Route>
+        <Route path="/Home" element={<Home />}></Route>Hello
       </Routes>
     </div>
    </>
