@@ -9,7 +9,7 @@ export default function About(props) {
         <br />
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 container mx-auto flex flex-col items-center">
             <img
-              src="./MyPic.jpg"
+              src="../assets/MyPic.jpg"
               width="320"
               height="320"
               className="mypic"
