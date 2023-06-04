@@ -242,13 +242,25 @@ body.dark-mode .buttons .button-red, body.dark-mode .buttons .button-yellow, bod
 
  .coverimg {
     background-image: url(./assets/cover_mob.svg);
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    position: fixed; 
+    z-index: -1;
+    opacity: 0.6;
   }
 }
 
 @media screen and (max-width: 920px)
 {
   .coverimg {
-   background-image: url(./assets/cover_mob.svg);
+    background-image: url(./assets/cover_mob.svg);
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    position: fixed; 
+    z-index: -1;
+    opacity: 0.6;
   }
 }
 
