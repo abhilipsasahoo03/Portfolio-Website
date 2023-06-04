@@ -17,17 +17,16 @@ export default function CoverPage() {
       </div>
        <div align="center">
        <div className="introdiv flex flex-wrap items-center justify-center rounded">
-        <p align="center" className="mb-8 ml-8 mr-8 w-full leading-relaxed lg:text-2xl" id="desc">
+        <p align="center" className="mb-8 ml-8 mr-8 mt-8 w-full leading-relaxed lg:text-2xl" id="desc">
           Hello, thanks for visiting Abhilipsa's portfolio website. Click below to enter.
        </p>
        <div
-          className="inline-flex bg-black border-0 py-2 px-6 focus:outline-none !hover:bg-pink-600 rounded text-lg" 
+          className="inline-flex bg-black border-0 py-2 px-6 focus:outline-none !hover:bg-pink-600 rounded text-lg" mb-4
        > 
        <p className="text-white text-1xl font-extrabold inline-block" id="workwithme">
         <Link to="/Home/About"> Welcome </Link> 
        </p>
        </div>
-       <br />
       </div>
       </div>
       <br />
