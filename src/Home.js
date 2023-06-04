@@ -19,8 +19,7 @@ import "./App.css";
         <Routes>  
           <Route path="/About" element={<About />}/>  
           <Route path="/Blogs" element={<Blogs />}/>  
-          <Route path="/ 
- Projects" element={<Projects />}/>  
+          <Route path="/Projects" element={<Projects />}/>  
           <Route path="/OpenSource" element={<OpenSource />}/>  
         </Routes>  
       </main>  
